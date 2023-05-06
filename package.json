@@ -19,8 +19,8 @@
     "web_services": "webpack --mode development --config webpack.config.js --watch",
     "test": "echo \"Error: no test specified\" && exit 1",
     "eject": "react-scripts eject",
-    "start": "react-scripts --openssl-legacy-provider start"
-},
+    "start": "react-scripts start"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
