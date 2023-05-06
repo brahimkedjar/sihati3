@@ -54,7 +54,6 @@ Rails.application.configure do
   config.active_record.migration_error = :page_load
   config.web_console.whitelisted_ips = ['192.168.42.170', '192.168.42.247','192.168.77.111','172.17.0.1']
 
-  config.hosts << "sihati-servicess.onrender.com"
 
   # Highlight code that triggered database queries in logs.
   config.active_record.verbose_query_logs = true
