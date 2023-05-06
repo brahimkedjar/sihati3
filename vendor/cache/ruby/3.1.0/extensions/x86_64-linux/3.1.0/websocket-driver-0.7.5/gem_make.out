@@ -1,0 +1,15 @@
+current directory: /home/brahim/Bureau/test/sihati_react_ruby/vendor/cache/ruby/3.1.0/gems/websocket-driver-0.7.5/ext/websocket-driver
+/usr/bin/ruby3.1 -I /usr/lib/ruby/vendor_ruby -r ./siteconf20230506-15867-j7iixx.rb extconf.rb
+creating Makefile
+
+current directory: /home/brahim/Bureau/test/sihati_react_ruby/vendor/cache/ruby/3.1.0/gems/websocket-driver-0.7.5/ext/websocket-driver
+make DESTDIR\= clean
+
+current directory: /home/brahim/Bureau/test/sihati_react_ruby/vendor/cache/ruby/3.1.0/gems/websocket-driver-0.7.5/ext/websocket-driver
+make DESTDIR\=
+compiling websocket_mask.c
+linking shared-object websocket_mask.so
+
+current directory: /home/brahim/Bureau/test/sihati_react_ruby/vendor/cache/ruby/3.1.0/gems/websocket-driver-0.7.5/ext/websocket-driver
+make DESTDIR\= install
+/usr/bin/install -c -m 0755 websocket_mask.so ./.gem.20230506-15867-r7f0bn
