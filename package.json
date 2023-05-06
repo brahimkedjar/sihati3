@@ -8,7 +8,9 @@
     "test": "test"
   },
   "scripts": {
-    "build": "export NODE_OPTIONS=--openssl-legacy-provider; gatsby build",
+    "build": "webpack",
+    "gatsby-build": "export NODE_OPTIONS=--openssl-legacy-provider; gatsby build",
+    "postinstall": "npm install",
     "build:watch": "./node_modules/.bin/webpack --watch",
     "serve": "./node_modules/.bin/webpack serve",
     "webpack-dev-server": "webpack-dev-server",
@@ -18,7 +20,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "eject": "react-scripts eject",
     "start": "react-scripts --openssl-legacy-provider start"
-  },
+},
   "keywords": [],
   "author": "",
   "license": "ISC",
