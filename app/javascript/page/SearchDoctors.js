@@ -12,7 +12,7 @@ import React from 'react';
     const [itemsDataButton, setItemDataButton] = useState([]);
 
     useEffect(() => {
-      fetch("http://localhost:3000/api/v1/doctors_list")
+      fetch("/api/v1/doctors_list")
         .then((res) => res.json())
         .then((data) => {
           setItemData(data);

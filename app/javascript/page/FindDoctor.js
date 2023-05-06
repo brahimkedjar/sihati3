@@ -15,7 +15,7 @@ function FindDoctor(props) {
   // Define function to handle form submission
   const handleSubmit = (e) => {
     e.preventDefault();
-    fetch("http://localhost:5020/assign_group", {
+    fetch("https://recommendersystem.onrender.com/assign_group", {
       method: "POST",
       headers: {
         "Content-Type": "application/json"
@@ -37,11 +37,10 @@ function FindDoctor(props) {
 
   // Fetch data from API on component mount and whenever selectedCommune or selectedSpecialty change
   useEffect(() => {
-    fetch(`http://192.168.77.170:3000/get_patients/${userData.patient_data.id}`)
+    fetch(`/get_patients/${userData.patient_data.id}`)
       .then((res) => res.json())
       .then((data) => setItemsData(data));
   }, []);
-console.log(itemsData);
  return (
     <div className={styles.FindDoctor}>
       <div className={styles.annons}>

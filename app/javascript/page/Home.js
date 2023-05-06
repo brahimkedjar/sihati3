@@ -62,3 +62,7 @@ document.addEventListener("turbolinks:load", () => {
   const app = document.getElementById("home");
   app && createRoot(app).render(<Home />);
   });
+
+
+
+

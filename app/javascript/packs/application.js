@@ -2,7 +2,19 @@ import $ from 'jquery';
 import "bootstrap"
 import 'bootstrap/dist/css/bootstrap.css'
 import toastr from 'toastr'
-
+import '../css/Button.css';
+import '../css/Cards.module.css';
+import '../css/Error.css';
+import '../css/NavBarAcount.css'
+import '../css/SearchBar.css'
+import '../css/Appointments.module.css';
+import '../css/Docmod.css'
+import '../css/Doctor.module.css';
+import '../css/FindDoctor.module.css';
+import '../css/Home.css';
+import '../css/PatientList.module.css';
+import "../css/map.css";
+import '../css/SearchDoctors.module.css';
 import './index.css';
 window.jQuery = $;
 window.$ = $;

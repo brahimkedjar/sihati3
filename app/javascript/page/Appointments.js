@@ -18,7 +18,6 @@ function Appointments() {
         setFilteredTexts(data.notifications);
         setLoading(false);
       } catch (error) {
-        console.error(error);
       }
     };
     fetchData();

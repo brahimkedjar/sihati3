@@ -1,13 +1,47 @@
   <!DOCTYPE html>
 <html>
 <head>
- <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js"></script>‌​
+
   <title>Doctor Signup Form</title>
-  <style>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js"></script>‌​
+
+
+
+ <style>
+ #selected-wilaya-list {
+  margin-top: 5px; /* adjust the value as per your requirement */
+}
+ .ui-autocomplete {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    z-index: 9999;
+  }
+
+  .ui-autocomplete li {
+    padding: 5px;
+    cursor: pointer;
+    background-color: #fff;
+    border-bottom: 1px solid #ddd;
+  }
+
+  .ui-autocomplete li:last-child {
+    border-bottom: none;
+  }
+
+  .ui-autocomplete li:hover {
+    background-color: #f5f5f5;
+  }
+ .container-fluid {
+      margin-top: 20px; /* Change the value to the desired margin */
+    }
     .card-header {
       background-color: #0272ac;
     }
@@ -32,9 +66,10 @@
       }
     }
   </style>
+
 </head>
 <body>
-  <div class="card border-primary">
+  <div class="card border-primary" >
     <div class="card-header bg-primary text-white text-center">
       <h5 class="card-title mb-0">Creé un compte</h5>
     </div>

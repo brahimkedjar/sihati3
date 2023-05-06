@@ -13,9 +13,9 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import 'react-calendar/dist/Calendar.css';
 import { Slider } from '@mui/material';
 import L from 'leaflet';
-import "../css/map.css";
 import haversineDistance from 'haversine-distance'
 import styles from '../css/PatientList.module.css';
+import "../css/map.css";
 
 function openGoogleMaps(latitude, longitude) {
   const mapsUrl = `https://www.google.com/maps/dir/?api=1&destination=${latitude},${longitude}`;
@@ -137,7 +137,7 @@ const PatientList = (props) => {
   async function handleConfirmation() {
     try {
 
-      const apiUrl = 'http://192.168.42.170:3000/api/v1/send_notifications';
+      const apiUrl = '/api/v1/send_notifications';
       const groupIds = Array.isArray(groupId) ? groupId : [groupId];
       const response = await fetch(apiUrl, {
         method: 'POST',
@@ -178,7 +178,7 @@ const PatientList = (props) => {
     const shadowUrl = 'https://maps.google.com/mapfiles/ms/micons/msmarker.shadow.png';
 
     const doctorId = doctorData.doctor_data.id;
-    const url = 'http://192.168.77.170:5004/recommender_patients';
+    const url = 'https://recommender-system-9lr3.onrender.com/recommender_patients';
     const headers = { 'Content-Type': 'application/json' };
     const body = JSON.stringify({
       doctor_id: doctorId,
@@ -316,7 +316,7 @@ const PatientList = (props) => {
   <Typography
     variant="h3"
     component="h2"
-    color="#ffffff"
+    color="primary"
     fontWeight="bold"
     fontSize="35px"
     ref={recommendationsRef}

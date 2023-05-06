@@ -7,16 +7,20 @@ let root = null;
 
 document.addEventListener("DOMContentLoaded", () => {
   const app = document.getElementById("root");
-  if (!root) {
-    root = createRoot(app);
+
+  if (app) {
+    if (!root) {
+      root = createRoot(app);
+    }
+
+    root.render(
+      <React.StrictMode>
+        <BrowserRouter>
+          <Routes>
+            <Route path="*" element={<App />} />
+          </Routes>
+        </BrowserRouter>
+      </React.StrictMode>
+    );
   }
-  root.render(
-    <React.StrictMode>
-      <BrowserRouter>
-        <Routes>
-          <Route path="*" element={<App />} />
-        </Routes>
-      </BrowserRouter>
-    </React.StrictMode>
-  );
 });
