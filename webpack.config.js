@@ -1,6 +1,12 @@
 const path = require('path');
 
 module.exports = {
+  resolve: {
+    alias: {
+      // Provide the path to xlsx.min.js file in your node_modules
+      xlsx: 'xlsx/dist/xlsx.min.js',
+    },
+  },
   module: {
     rules: [
       {
