@@ -9,6 +9,7 @@
   },
   "scripts": {
     "build": "webpack",
+    "gatsby-build": "export NODE_OPTIONS=--openssl-legacy-provider; gatsby build",
     "postinstall": "npm install",
     "build:watch": "./node_modules/.bin/webpack --watch",
     "serve": "./node_modules/.bin/webpack serve",
