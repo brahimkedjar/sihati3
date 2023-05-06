@@ -16,7 +16,9 @@
     "prod": "NODE_ENV=production webpack --mode=production",
     "web_services": "webpack --mode development --config webpack.config.js --watch",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "start": "react-scripts start"
+
   },
   "keywords": [],
   "author": "",
