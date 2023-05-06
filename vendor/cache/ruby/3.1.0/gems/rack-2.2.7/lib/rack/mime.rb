@@ -657,7 +657,6 @@ module Rack
       ".xlam"      => "application/vnd.ms-excel.addin.macroEnabled.12",
       ".xls"       => "application/vnd.ms-excel",
       ".xlsb"      => "application/vnd.ms-excel.sheet.binary.macroEnabled.12",
-      ".xlsx"      => "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
       ".xlsm"      => "application/vnd.ms-excel.sheet.macroEnabled.12",
       ".xlt"       => "application/vnd.ms-excel",
       ".xltx"      => "application/vnd.openxmlformats-officedocument.spreadsheetml.template",
