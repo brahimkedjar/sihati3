@@ -15086,17 +15086,7 @@ ws@^8.13.0:
   resolved "https://registry.npmjs.org/ws/-/ws-8.13.0.tgz"
   integrity sha512-x9vcZYTrFPC7aSIbj7sRCYo7L/Xb8Iy+pW0ng0wt2vCJv7M9HOMy0UoN3rr+IFC7hb7vXoqS+P9ktyLLLhO+LA==
 
-"xlsx@git+https://github.com/securedeveloper/js-xlsx.git":
-  version "0.8.20"
-  resolved "git+ssh://git@github.com/securedeveloper/js-xlsx.git#32f550d3b3bdb1b781aabe100683311cd982c98e"
-  dependencies:
-    adler-32 ""
-    cfb ">=0.10.0"
-    codepage "~1.3.6"
-    commander ""
-    crc-32 ""
-    jszip "2.4.0"
-    ssf "~0.8.1"
+
 
 xml-name-validator@^3.0.0:
   version "3.0.0"
