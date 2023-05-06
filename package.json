@@ -9,7 +9,6 @@
   },
   "scripts": {
     "build": "webpack",
-    "postinstall": "npm install",
     "build:watch": "./node_modules/.bin/webpack --watch",
     "serve": "./node_modules/.bin/webpack serve",
     "webpack-dev-server": "webpack-dev-server",
