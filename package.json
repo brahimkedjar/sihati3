@@ -7,7 +7,6 @@
     "lib": "lib",
     "test": "test"
   },
-
   "scripts": {
     "build": "webpack",
     "postinstall": "npm install",
@@ -24,7 +23,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "xlsx": "^0.16.8",
     "@date-io/date-fns": "^2.6.1",
     "@date-io/moment": "^2.11.0",
     "@emotion/react": "^11.10.6",
@@ -72,10 +70,9 @@
     "reactstrap": "^8.4.1",
     "toastr": "^2.1.4",
     "turbolinks": "^5.2.0",
-    "webpack-cli": "^4.9.1"
+    "xlsx": "^0.16.8"
   },
   "devDependencies": {
-    "xlsx": "^0.16.8",
     "@babel/cli": "^7.21.5",
     "@babel/core": "^7.21.5",
     "@babel/plugin-transform-modules-commonjs": "^7.21.2",
@@ -91,6 +88,8 @@
     "style-loader": "^2.0.0",
     "terser-webpack-plugin": "^5.3.7",
     "webpack": "^5.82.0",
-    "webpack-dev-server": "^3"
+    "webpack-cli": "^5.0.2",
+    "webpack-dev-server": "^3",
+    "xlsx": "^0.16.8"
   }
 }
