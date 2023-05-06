@@ -24,6 +24,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "xlsx": "^0.16.8",
     "@date-io/date-fns": "^2.6.1",
     "@date-io/moment": "^2.11.0",
     "@emotion/react": "^11.10.6",
@@ -74,6 +75,7 @@
     "webpack-cli": "^4.9.1"
   },
   "devDependencies": {
+    "xlsx": "^0.16.8",
     "@babel/cli": "^7.21.5",
     "@babel/core": "^7.21.5",
     "@babel/plugin-transform-modules-commonjs": "^7.21.2",
