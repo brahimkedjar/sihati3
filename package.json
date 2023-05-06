@@ -8,8 +8,7 @@
     "test": "test"
   },
   "scripts": {
-    "build": "webpack",
-    "postinstall": "npm install",
+    "build": "export NODE_OPTIONS=--openssl-legacy-provider && gatsby build && webpack --config webpack.config.js",
     "build:watch": "./node_modules/.bin/webpack --watch",
     "serve": "./node_modules/.bin/webpack serve",
     "webpack-dev-server": "webpack-dev-server",
@@ -18,7 +17,7 @@
     "web_services": "webpack --mode development --config webpack.config.js --watch",
     "test": "echo \"Error: no test specified\" && exit 1",
     "eject": "react-scripts eject",
-    "start": "react-scripts start"
+    "start": "react-scripts --openssl-legacy-provider start"
   },
   "keywords": [],
   "author": "",
