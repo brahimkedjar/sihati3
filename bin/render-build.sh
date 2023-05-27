@@ -4,9 +4,7 @@ set -o errexit
 
 # add node_modules/.bin to PATH
 PATH=$PATH:$(npm bin)
-if [ -f config/master.key ]; then
-  cp config/master.key config/credentials.yml.enc
-fi
+
 # change ownership of ~/.npm to current user
 mkdir -p ~/.npm
 chown -R $(whoami) ~/.npm
