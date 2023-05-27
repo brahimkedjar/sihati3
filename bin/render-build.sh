@@ -4,6 +4,7 @@ set -o errexit
 
 # add node_modules/.bin to PATH
 PATH=$PATH:$(npm bin)
+export RAILS_MASTER_KEY=`cat config/master.key`
 
 # change ownership of ~/.npm to current user
 mkdir -p ~/.npm
